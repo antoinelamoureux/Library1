@@ -18,22 +18,22 @@
   
   <developers>
 		<developer>
-			<name>xxx</name>
-			<organization>xxx</organization>
-			<email>xxx</email>
+			<name>Antoine Lamoureux</name>
+			<organization>AFPA</organization>
+			<email>frgfdfdgfdgfd@gfgfdg.com</email>
 			<roles>
-				<role>xxx</role>
+				<role>Developper</role>
 			</roles>
 		</developer>
 	</developers>
 
 	<contributors>
 		<contributor>
-			<name>xxx</name>
-			<organization>xxx</organization>
-			<email>xxx</email>
+			<name>Antoine Lamoureux</name>
+			<organization>AFPA</organization>
+			<email>frgfdfdgfdgfd@gfgfdg.com</email>
 			<roles>
-				<role>xxx</role>
+				<role>Developper</role>
 			</roles>
 		</contributor>
 	</contributors>

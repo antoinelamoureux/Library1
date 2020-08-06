@@ -20,6 +20,4 @@ public class TestBusiness {
 		log.info("Hello business");
 		
 	}
-	
-
 }

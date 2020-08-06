@@ -21,9 +21,9 @@ public class DataSourceConfig {
 	public DriverManagerDataSource provideSource() {
         DriverManagerDataSource dataSource = new org.springframework.jdbc.datasource.DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUsername("xxxx");
-        dataSource.setPassword("xxxxx");
-        dataSource.setUrl("xxxxx");
+        dataSource.setUsername("admin");
+        dataSource.setPassword("admin");
+        dataSource.setUrl("jdbc:mysql://localhost:3308/bibliotheque?useSSL=false&serverTimezone=UTC");
         return dataSource;
     }
 
@@ -31,5 +31,4 @@ public class DataSourceConfig {
     public JdbcTemplate applicationDataConnection(){
         return new JdbcTemplate(provideSource());
     }
-	
 }
